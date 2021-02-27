@@ -18,7 +18,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 * Use `otu_labels` as the hovertext for the chart.
 
-  ![bar Chart](Instructions/Images/hw01.png)
+  ![bar Chart](Images/hw01.png)
 
 3. Create a bubble chart that displays each sample.
 
@@ -32,7 +32,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 * Use `otu_labels` for the text values.
 
-![Bubble Chart](Instructions/Images/bubble_chart.png)
+![Bubble Chart](Images/bubble_chart.png)
 
 4. Display the sample metadata, i.e., an individual's demographic information.
 
@@ -44,7 +44,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown below:
 
-![hw](Instructions/Images/hw02.png)
+![hw](Images/hw02.png)
 
 ## Advanced Challenge Assignment (Optional)
 
