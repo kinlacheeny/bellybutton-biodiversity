@@ -23,8 +23,7 @@ function getPlots() {
         var data = sampledata.samples[0].otu_ids;
         
         // filter samples values by id
-        
-        // var samples = data.filter(s => s.id.toString() === ids)[0];
+        //var samples = data.filter(s => s.sample. === (samples))[0];
         //console.log(ids)
         var sampleValues =  sampledata.samples[0].sample_values.slice(0,10).reverse();
         console.log(sampleValues)
@@ -120,7 +119,9 @@ function init() {
 
         // get the id data to the dropdwown menu
         data.names.forEach((name) => {
-            dropdown.append("option").text(name).property("value",name);
+            dropdown.append("option")
+            .text(name)
+            .property("value",name);
         });
         // call the functions to display the data and the plots to the page
         var name = data.names[0]
